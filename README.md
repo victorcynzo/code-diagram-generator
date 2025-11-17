@@ -62,6 +62,7 @@ Diagram Style Options (mutually exclusive):
         Example: python generate_code_diagram.py script.py -g
 
 Content Options:
+
     --include-control-flow
         Include if statements, for loops, and while loops in the diagram
         By default, only functions and classes are shown
