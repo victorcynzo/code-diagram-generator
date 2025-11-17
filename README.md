@@ -17,6 +17,7 @@ Analyzes a Python file and outputs a vertical flow diagram to a markdown file.
 ### CLI OPTIONS:
 
 Input File:
+
     <input_file.py>
         Path to Python file to analyze (required)
         Supports relative paths, absolute paths, and same directory
@@ -26,6 +27,7 @@ Input File:
             C:\\path\\to\\script.py
 
 Output Options:
+
     -o, --output <file>
         Specify custom output file path (supports full paths)
         Default: Creates <input_file>_structure.md in same directory as input
