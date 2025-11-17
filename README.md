@@ -1,10 +1,10 @@
-Generate ASCII diagram of Python code structure.
+# Generate ASCII diagram of Python code structure.
 Analyzes a Python file and outputs a vertical flow diagram to a markdown file.
 
-USAGE:
+## USAGE:
     python generate_code_diagram.py <input_file.py> [OPTIONS]
 
-BASIC EXAMPLES:
+### BASIC EXAMPLES:
     # Same directory
     python generate_code_diagram.py my_script.py
     
@@ -14,7 +14,7 @@ BASIC EXAMPLES:
     # Absolute path
     python generate_code_diagram.py C:\\Users\\Name\\Documents\\project\\script.py
 
-CLI OPTIONS:
+### CLI OPTIONS:
 
 Input File:
     <input_file.py>
@@ -64,7 +64,7 @@ Content Options:
         By default, only functions and classes are shown
         Example: python generate_code_diagram.py script.py --include-control-flow
 
-COMPLETE EXAMPLES:
+## COMPLETE EXAMPLES:
     # Basic usage with default line style
     python generate_code_diagram.py my_script.py
     
