@@ -34,6 +34,7 @@ Output Options:
             python generate_code_diagram.py C:\\code\\script.py -o D:\\docs\\output.md
 
 Diagram Style Options (mutually exclusive):
+
     -l, --line (DEFAULT)
         Tree-style diagram with Unicode line connectors (┌─, ╔═, ├─, │)
         Best for: Quick overview, terminal viewing
